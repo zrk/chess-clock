@@ -15,6 +15,9 @@
 * Starting time for every Player: 2 minutes.
 * Time display format: mm.ss.000
 
+## Demo
+https://zrk.github.io/chess-clock/
+
 ## Install
 ```
 npm install
