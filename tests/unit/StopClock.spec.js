@@ -64,7 +64,7 @@ describe('StopClock.vue', () => {
   });
 
   it('indicates the "out of time" state', () => {
-    const clockface = stopclock.find('.countdown');
+    const clockface = stopclock.find('.stop-clock__face');
 
     expect(clockface.element.className).to.not.include('ended');
     countdown.vm.$emit('end');
